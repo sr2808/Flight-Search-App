@@ -16,6 +16,10 @@ app.use(cors({
 }));
 app.use(bodyParser.json());
 
+app.get(() => {
+  console.log("This is server side...");
+})
+
 // Routes
 app.use('/api/flights', flightsRoute);
 
