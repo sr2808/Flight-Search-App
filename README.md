@@ -1,6 +1,5 @@
 # Flight Search Application
 
-<<<<<<< HEAD
 This project is a flight search application built with React (using Vite), Node.js, and Express.js. The application allows users to select origin and destination airports, choose a cabin section, and search for available flight routes. The results are displayed in a card format.
 
 ## Table of Contents
