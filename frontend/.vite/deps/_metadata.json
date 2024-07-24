@@ -1,0 +1,52 @@
+{
+  "hash": "1ae99300",
+  "configHash": "44cfb5f7",
+  "lockfileHash": "be37b70c",
+  "browserHash": "88dc38d2",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4f2a9fa8",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d5dcc53a",
+      "needsInterop": true
+    },
+    "@mui/material/Switch": {
+      "src": "../../node_modules/@mui/material/Switch/index.js",
+      "file": "@mui_material_Switch.js",
+      "fileHash": "80d60261",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "bcf6ebb2",
+      "needsInterop": false
+    },
+    "@mui/icons-material/ArrowForward": {
+      "src": "../../node_modules/@mui/icons-material/ArrowForward.js",
+      "file": "@mui_icons-material_ArrowForward.js",
+      "fileHash": "5f7e9f74",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-ZIYUGMGG": {
+      "file": "chunk-ZIYUGMGG.js"
+    },
+    "chunk-FOBEU2ZJ": {
+      "file": "chunk-FOBEU2ZJ.js"
+    },
+    "chunk-65KY755N": {
+      "file": "chunk-65KY755N.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}
