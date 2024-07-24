@@ -19,7 +19,7 @@ const Home = () => {
     setErrorMessage('');
 
     try {
-      const response = await axios.post('http://localhost:5000/api/search-flights', {
+      const response = await axios.post('https://flight-search-app-beta.vercel.app/api/search-flights', {
         origin,
         destination,
         cabinSection,
