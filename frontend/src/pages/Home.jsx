@@ -12,12 +12,13 @@ const Home = () => {
   const [results, setResults] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
+  axios.defaults.withCredentials = true
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
     setErrorMessage('');
-
     try {
       const response = await axios.post('https://flight-search-app-beta.vercel.app/api/search-flights', {
         origin,
