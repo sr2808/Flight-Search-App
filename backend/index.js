@@ -10,11 +10,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-<<<<<<< HEAD
   origin: ["http://localhost:5173", "https://flight-search-app-f71u.vercel.app"],
-=======
-  origin: ["http://localhost:5173", "https://flight-search-app-f71u.vercel.app, "], // Update this list with your frontend URLs
->>>>>>> 6904f37 (resolved merge conflicts)
   methods: ["POST", "GET"],
   credentials: true
 }));
