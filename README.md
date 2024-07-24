@@ -81,7 +81,7 @@ This project is a Flight Search Application that allows users to search for flig
 4. Start the backend server:
 
     ```sh
-    npm run dev
+    node server.js
     ```
 
 ## Deployment
