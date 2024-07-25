@@ -19,7 +19,7 @@ const Home = () => {
     setIsLoading(true);
     setErrorMessage("");
     try {
-      const response = await axios.post("https://flight-search-app-beta.vercel.app/api/flights", {
+      const response = await axios.post("http:localhost:5000/api/flights", {
         origin, //dymaic data
         destination, //dymaic data
         cabinSection, //dymaic data
