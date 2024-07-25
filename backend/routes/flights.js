@@ -16,6 +16,7 @@ router.post('/', async (req, res) => {
     cabinSelection,
     date
   } = req.body;
+  
 
   try {
     const response = await axios.post(process.env.API_URL, {
