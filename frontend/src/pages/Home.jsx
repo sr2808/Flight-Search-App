@@ -25,12 +25,12 @@ const Home = () => {
         cabinSection,
         partnerPrograms: [],
         stops: 0,
-        departureTimeFrom: "2024-07-25T00:00:00Z",
-        departureTimeTo: "2024-07-26T00:00:00Z",
+        departureTimeFrom: "2024-07-09T00:00:00Z",
+        departureTimeTo: "2024-10-07T00:00:00Z",
         isOldData: false,
-        limit: 10,
+        limit: 302,
         offset: 0,
-        date: "2024-07-25",
+        date: "2024-07-09T12:00:17.796Z",
       });
       const data = response.data.data;
       console.log(data);
