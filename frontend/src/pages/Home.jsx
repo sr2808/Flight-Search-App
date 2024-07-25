@@ -66,9 +66,9 @@ const Home = () => {
         Choose Origin And Destination Airports:
       </h1>
 
-      <div className="form">
+      <div className="form p-0">
         <form
-          className="h-full w-full flex flex-col justify-center items-center"
+          className="h-full w-full flex flex-col justify-center items-center flex-shrink-0 flex-grow-0"
           onSubmit={handleSubmit}
         >
           {/* Origin  */}
@@ -169,7 +169,7 @@ const Home = () => {
 
           {/* Submit Button */}
           <button
-            className="bg-green-400 my-4 py-2 px-4 rounded-xl hover:bg-green-300 text-white font-medium mr-auto ml-[10px]"
+            className="bg-green-400 my-4 py-2 px-4 rounded-xl hover:bg-green-300 text-white font-medium mr-auto lg:ml-[30%]"
             type="submit"
             disabled={isLoading}
           >
@@ -182,7 +182,7 @@ const Home = () => {
 
         {/* Display Results */}
         {results.length > 0 && (
-          <div className="results w-full flex flex-wrap justify-center items-start">
+          <div className="results w-full flex flex-col lg:flex-row lg:flex-wrap justify-start items-start lg:ml-[30%] ml-0">
             {results.map((result, index) => (
               <Card
                 key={index}
