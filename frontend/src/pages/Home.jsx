@@ -20,18 +20,29 @@ const Home = () => {
     setErrorMessage("");
     try {
       const response = await axios.post("http://localhost:5000/api/flights", {
-        origin,
-        destination,
-        cabinSection,
-        partnerPrograms: [],
+        origin, //dymaic data
+        destination, //dymaic data
+        cabinSection, //dymaic data
+        partnerPrograms: [
+          'Air Canada',
+          'United Airlines',
+          'KLM',
+          'Qantas',
+          'American Airlines',
+          'Etihad Airways',
+          'Alaska Airlines',
+          'Qatar Airways',
+          'LifeMiles',
+      ],
         stops: 0,
         departureTimeFrom: "2024-07-09T00:00:00Z",
         departureTimeTo: "2024-10-07T00:00:00Z",
         isOldData: false,
-        limit: 302,
+        limit: 320,
         offset: 0,
         date: "2024-07-09T12:00:17.796Z",
       });
+      console.log(response.data);
       const data = response.data.data;
       console.log(data);
       if (data && data.length > 0) {
