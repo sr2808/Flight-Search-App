@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ["https://flight-search-app-f71u.vercel.app", "http://localhost:5173", "https://cardgpt.in/apitest"],
+  origin: ["https://flight-search-app-f71u.vercel.app/api/flights", "http://localhost:5173", "https://cardgpt.in/apitest"],
   methods: ["POST", "GET"],
   credentials: true
 }));
